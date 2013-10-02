@@ -1,0 +1,11 @@
+{
+	"version" : "0.1",
+	"name" : "App",
+	"description" : "Template View de App",
+	"launch_path" : "/index.html",
+	"icons": {
+    "16": "/img/icons/mortar-16.png",
+    "48": "/img/icons/mortar-48.png",
+    "128": "/img/icons/mortar-128.png"
+	}
+}
