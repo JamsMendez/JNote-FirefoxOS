@@ -8,7 +8,7 @@ textarea{
 	background-color: #FFFF99;
 }
 
-.content{
+section[role="region"] > .content{
   margin: 0px; 
   padding: 0px;
 }

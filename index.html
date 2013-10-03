@@ -15,9 +15,8 @@
 	  <!-- Util CSS: some extra tricks -->
 	  <link rel="stylesheet" href="style/util.css">
 	  <link rel="stylesheet" href="style/fonts.css">
-
+	  <!-- Estilo de App -->
 		<link rel="stylesheet" type="text/css" href="style/style.css">
-
 		<script type="text/javascript" src="js/jquery-2.0.3.min.js"></script>
 		<script type="text/javascript" src="js/app.js"></script>
 	</head>
@@ -31,7 +30,7 @@
 		    </menu>
 		    <h1>JNote</h1>
 	    </header>
-		  	<article class="header">
+		  	<article class="content scrollable header">
 			  	<div data-type="list" >
 					  <ul id="list_note">
 					  </ul>
@@ -46,23 +45,13 @@
 			  <header class="fixed">
 			  	<button id="btn_back"><span class="icon icon-back"></span></button>
 			    <menu type="toolbar">
-			      <button id="btn_save"><span class="icon icon-edit"></span></button>
+			      <div id="buttons"></div>
 			    </menu>
 			    <h1>JNote</h1>
 			  </header>
 			  <article class="content scrollable header">
 			  	<textarea></textarea>
 			  </article>
-			  <div id="toolbar" class="hide" role="toolbar">
-				  <ul>
-				    <li>
-				    	<button id="btn_change" class="action-icon compose"></button>
-				    </li>
-				    <li>
-				    	<button id="btn_delete" class="icon action-icon delete"></button>
-				    </li>
-				  </ul>
-				</div>
 		 	</section>
 		</section>
 	
