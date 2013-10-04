@@ -1,11 +1,14 @@
 {
 	"version" : "0.1",
-	"name" : "App",
-	"description" : "Template View de App",
+	"name" : "JNote",
+	"description" : "Sencilla de Aplicación de Notas y Recordatorios",
 	"launch_path" : "/index.html",
 	"icons": {
-    "16": "/img/icons/mortar-16.png",
-    "48": "/img/icons/mortar-48.png",
-    "128": "/img/icons/mortar-128.png"
-	}
+    "16": "/img/icons/jnote-16.png",
+    "48": "/img/icons/jnote-48.png",
+    "128": "/img/icons/jnote-128.png"
+	},   
+	"developer": {
+    "name": "José Ángel Méndez Santiago"
+  }
 }

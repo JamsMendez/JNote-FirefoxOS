@@ -1,4 +1,4 @@
-$(document).on('ready', init);
+$(document).ready(init);
 
 function init () {
 	// Agregar los Eventos a los Componentes
@@ -118,7 +118,6 @@ function deleteNote () {
 
 function getIndex () {
 	var item = $(this).index();
-	console.log(item);
 	localStorage.item = item;
 	note();
 }
